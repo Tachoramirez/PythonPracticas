@@ -4,7 +4,7 @@ Objetivo: implementa las funciones CRUD en una lista
 Autor: El Tacho
 Fecha: 04/08/2020
 """
-import os
+
 #Declaramos una lista global
 lista = []
 
@@ -41,8 +41,7 @@ def printElements():
     for i in lista:
         print("La lista es: ", i, "\n")
 
-def dashboard():
-    os.system('clear')
+def dashboard(): 
     opc = 0
     while (opc != 6):
         print("== Operaciones CRUD con lista en Python == ")
